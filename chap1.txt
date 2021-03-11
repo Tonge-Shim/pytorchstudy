@@ -8,15 +8,19 @@ tensor:
 - programming the deep learning machine is very natural in PyTorch
 - gives the datatype Tensor, to hold numbers, vectors, matrices, or arrays in general.
 - plus, provides functions for operatin on them.
+
+
 2 reasons that make it particularly relevant for deep learning:
+
   1. provides accelerated computation using graphical processing units(GPUs), often yielding 
   speedups in the range of 50x over doing the same calculation on a CPU.
+  
   2. pytorch provides facilities that support numerical optimization on generic mathematical expressions, 
   which deep learning uses for training.
   
-batches: tensors that encompass several samples
-optimizer -> torch.optim
-loss function/criterion/ -> torch.nn
+*batches: tensors that encompass several samples
+*optimizer -> torch.optim
+*loss function/criterion/ -> torch.nn
 
 Summary
   * Deep learning models automatically learn to associate inputs and desired outputs from examples.
