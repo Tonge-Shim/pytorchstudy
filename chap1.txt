@@ -1,0 +1,27 @@
+PyTorch: library for python programs that facilitates building deeplearning projects
+tensor:
+  - core data structure
+  - multidimensional array that shares many similarities with NumPy arrays.
+  
+1.3. why PyTorch?
+- easy to recommend because of its simplicity/easy to learn, use, extend, and debug
+- programming the deep learning machine is very natural in PyTorch
+- gives the datatype Tensor, to hold numbers, vectors, matrices, or arrays in general.
+- plus, provides functions for operatin on them.
+2 reasons that make it particularly relevant for deep learning:
+  1. provides accelerated computation using graphical processing units(GPUs), often yielding 
+  speedups in the range of 50x over doing the same calculation on a CPU.
+  2. pytorch provides facilities that support numerical optimization on generic mathematical expressions, 
+  which deep learning uses for training.
+  
+batches: tensors that encompass several samples
+optimizer -> torch.optim
+loss function/criterion/ -> torch.nn
+
+Summary
+  * Deep learning models automatically learn to associate inputs and desired outputs from examples.
+  * Libraries like PyTorch allow tou to build and train neural network models efficiently.
+  * PyTorch minimizes cognitive overhead while focusing on flexibility and speed. It also defaults to immediate execution for operations.
+  * TorchScript allows us to precompile models and invoke them not only from Python but also from C++ programs and on mobile devices.
+  * Since the release of PyTorch in early 2017, the deep learning tooling ecosystem has consolidated significantly.
+  * PyTorch provides a number of utility libraries to facilitate deep learning projects.
