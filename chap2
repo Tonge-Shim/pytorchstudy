@@ -1,0 +1,5 @@
+filter: a function that takes one of more images as input and produces other images as output.
+<alexnet>
+forward pass through the network: the input will run through the first set of neurons, whose outputs will be fed to the next set of neurons,
+all the way to the final output.
+#output = alexnet(input)
